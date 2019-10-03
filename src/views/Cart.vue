@@ -3,7 +3,7 @@
     <h1 class="title">Your Cart</h1>
     <p v-show="!products.length">
       <i>Your cart is empty!</i>
-      <router-link to="/products">Go shopping</router-link>
+      <router-link to="/products">&nbsp; Go shopping</router-link>
     </p>
     <div class="card card-cascade narrower" v-show="products.length">
       <div
